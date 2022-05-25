@@ -24,11 +24,9 @@ function displayProduct () {
   let product = ""
   
 	// WHILE loop
-	for (counter <= userInt2) {
+	for (let counter = 0; counter <= userInt2; counter++) {
     // make number string with comma's
     product = product + userInt1 + ", "
-    // increment the counter
-    counter++
   }
   // display sequence back to user
 	document.getElementById("message").innerHTML = product
